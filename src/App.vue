@@ -1,7 +1,7 @@
 <template>
-<div id="app">
-  <VirtualList :listData="data" :itemSize="120"/>
-</div>
+  <div id="app">
+    <VirtualList :listData="data" :itemSize="120" />
+  </div>
 </template>
 
 <script>
@@ -25,14 +25,16 @@ export default {
 </script>
 
 <style>
-html{
+html {
   height: 100%;
 }
-body{
+
+body {
   height: 100%;
-  margin:0;
+  margin: 0;
 }
-#app{
-  height:100%;
+
+#app {
+  height: 100%;
 }
 </style>
